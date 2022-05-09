@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>E1: Formulario</title>
+</head>
+<body>
+    <h1>Formulario de registro</h1>
+    <div>
+        <form action="">
+            <div>
+                <label for="Nombre">Nombre:</label>
+                <input type="text" id="Nombre">
+            </div>
+            <br>
+            <div>
+                <label for="Apellido">Apellidos:</label>
+                <input type="text" id="Apellido">
+            </div>
+            <br>
+            <div>
+                <span> Sexo: </span>
+                <label for="man">hombre </label>
+                <input type="radio" name="gender" value="hombre" id="man">
+                <label for="woman">mujer </label>
+                <input type="radio" name="gender" value="mujer" id="woman" checked>   
+               </div>
+            <br>
+            <div>
+                <label for="Correo">Correo:</label>
+                <input type="email" id="Correo">
+            </div>
+            <br>
+            <div>
+                <label for="Poblacion">Población:</label>
+                <select name="Poblacion" id="Poblacion">
+                    <option value="op1" selected>Alicante</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label for="comentarios">Descripción:</label>
+                <textarea name="comentarios" rows="5" cols="60"></textarea>
+            </div>
+            <br>
+            <div>
+                <input type="checkbox" id="novedades">
+                <label for="novedades">Deseo recibir información sobre novedades y ofertas</label>
+            </div>
+            <br>
+            <div>
+                <input type="checkbox" id="condiciones">
+                <label for="condiciones">Declaro haber leido y aceptar las condiciones generales del programa y la normativa sobre protección de datos</label>
+            </div>
+            <br>
+            <div>
+                <input type="submit" value="Enviar">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
